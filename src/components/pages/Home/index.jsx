@@ -16,10 +16,6 @@ class Home extends Component {
     }
   }
 
-  componentDidMount() {
-    console.log("---Start componentDidMount---")
-  }
-
   updateSelectedSection = (section) => {
     let { selectedSection } = this.state
     if (section === selectedSection) this.setState({ selectedSection: "" })
@@ -33,7 +29,7 @@ class Home extends Component {
       <div>
         {/* <img src={Face} /> */}
 
-        <div className="topheader">Adrien Fabre</div>
+        <h1 className="topheader">Adrien Fabre</h1>
 
         <SoftwareDeveloper />
         <Introduction

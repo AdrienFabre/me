@@ -6,14 +6,10 @@ class SoftwareDeveloper extends Component {
     this.state = {}
   }
 
-  componentDidMount() {
-    console.log("---Start componentDidMount---")
-  }
-
   render() {
     return (
       <div>
-        <div className="header">Software Developer</div>
+        <h2 className="header">Software Developer</h2>
         <p className="$text centered">
           <a
             href="https://github.com/AdrienFabre/CV"

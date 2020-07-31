@@ -15,7 +15,7 @@ class WorkExperience extends Component {
 
     return (
       <div>
-        <div className="header">Work Experience</div>
+        <h3 className="header">Work Experience</h3>
         <div className="card">
           <div
             className={`title ${selectedSection === "WEX05" && "highlight"}`}

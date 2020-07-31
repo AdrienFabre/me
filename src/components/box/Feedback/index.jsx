@@ -15,7 +15,7 @@ class Feedback extends Component {
 
     return (
       <div>
-        <div className="header">Feedback</div>
+        <h3 className="header">Feedback</h3>
         <div className="card">
           <div
             className={`title ${selectedSection === "FEE01" && "highlight"}`}

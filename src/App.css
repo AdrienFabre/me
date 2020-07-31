@@ -1,12 +1,10 @@
 .topheader {
-  font-size: 30px;
-  padding: 10px 0px;
+  padding-top: 20px;
   text-align: center;
 }
 
 .header {
-  font-size: 25px;
-  padding: 25px 0px;
+  padding: 15px 0px;
   margin: 5px 0px;
   text-align: center;
 }
@@ -18,7 +16,6 @@
 .title {
   margin: 5px auto;
   font-weight: bolder;
-  font-size: 18px;
   border: none;
   transition: 0.3s transform;
   cursor: pointer;
@@ -68,7 +65,6 @@ img {
 }
 
 .footer {
-  font-size: 18px;
   text-align: center;
   margin: 70px;
 }

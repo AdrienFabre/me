@@ -15,7 +15,7 @@ class Recommendation extends Component {
 
     return (
       <div>
-        <div className="header">Recommendation</div>
+        <h3 className="header">Recommendation</h3>
         <div className="card">
           <div
             className={`title ${selectedSection === "REC02" && "highlight"}`}

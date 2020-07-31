@@ -15,7 +15,7 @@ class EventExperience extends Component {
 
     return (
       <div>
-        <div className="header">Event Experience</div>
+        <h3 className="header">Event Experience</h3>
         <div className="card">
           <div
             className={`title ${selectedSection === "EEX01" && "highlight"}`}
@@ -182,7 +182,7 @@ class EventExperience extends Component {
                   rel="noopener noreferrer"
                 >
                   Social Impact Festival
-                </a>
+                </a>{" "}
                 organised by City University in London as a Speaker.
               </li>
               <li>
@@ -192,7 +192,7 @@ class EventExperience extends Component {
                   rel="noopener noreferrer"
                 >
                   The East London Social Hack
-                </a>
+                </a>{" "}
                 organised by Queen Mary University of London as a Mentor.
               </li>
               <li>
@@ -202,7 +202,7 @@ class EventExperience extends Component {
                   rel="noopener noreferrer"
                 >
                   Beyond Good Business
-                </a>
+                </a>{" "}
                 organised by Hatch Enterprise Incubator as a member of the
                 Newsroom Team.
               </li>
@@ -213,7 +213,7 @@ class EventExperience extends Component {
                   rel="noopener noreferrer"
                 >
                   Startup Weekend Health London
-                </a>
+                </a>{" "}
                 as a member of the Sponsorship Development Team.
               </li>
             </ul>
@@ -226,13 +226,14 @@ class EventExperience extends Component {
                   rel="noopener noreferrer"
                 >
                   Hack Coworking London 2019
-                </a>
+                </a>{" "}
                 and created
                 <a
                   href="https://devpost.com/software/co-dash"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  {" "}
                   Co-Dash
                 </a>
               </li>

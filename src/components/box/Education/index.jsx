@@ -15,7 +15,7 @@ class Education extends Component {
 
     return (
       <div>
-        <div className="header">Education</div>
+        <h3 className="header">Education</h3>
         <div className="card">
           <div
             className={`title ${selectedSection === "EDU05" && "highlight"}`}

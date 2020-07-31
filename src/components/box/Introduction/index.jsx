@@ -15,7 +15,7 @@ class Introduction extends Component {
 
     return (
       <div>
-        <div className="header">About</div>
+        <h3 className="header">About</h3>
         <div className="card">
           <div
             className={`title ${selectedSection === "INT01" && "highlight"}`}
