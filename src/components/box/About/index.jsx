@@ -1,13 +1,9 @@
 import React, { Component } from "react"
 
-class Introduction extends Component {
+class About extends Component {
   constructor(props) {
     super(props)
     this.state = {}
-  }
-
-  componentDidMount() {
-    console.log("---Start componentDidMount---")
   }
 
   render() {
@@ -37,10 +33,10 @@ class Introduction extends Component {
               agile team player.
             </p>
             <p>
-              Having just graduated from Makers Software Engineering Bootcamp, I
-              am looking for a role where I can contribute to a culture of
-              innovation, continuous progress and diversity, from where I can
-              make the world a better place.
+              Having graduated from Makers Software Engineering Bootcamp and
+              evolved in a tech startup team, I am looking for a role where I
+              can contribute to a culture of innovation, continuous progress and
+              diversity, from where I can make the world a better place.
             </p>
           </div>
         </div>
@@ -85,4 +81,4 @@ class Introduction extends Component {
   }
 }
 
-export default Introduction
+export default About

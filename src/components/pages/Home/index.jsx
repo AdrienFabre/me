@@ -1,18 +1,18 @@
 import React, { Component } from "react"
-import Introduction from "../../box/Introduction/index"
+import About from "../../box/About/index"
 import SoftwareDeveloper from "../../box/SoftwareDeveloper/index"
 import Education from "../../box/Education/index"
 import WorkExperience from "../../box/WorkExperience/index"
 import EventExperience from "../../box/EventExperience/index"
 import Recommendation from "../../box/Recommendation/index"
 import Feedback from "../../box/Feedback/index"
-// import Face from "../../../picture/Adrien-750x500.jpg"
+import Face from "../../../picture/Adrien-750x500.jpg"
 
 class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      selectedSection: "",
+      selectedSection: "INT01",
     }
   }
 
@@ -27,20 +27,20 @@ class Home extends Component {
     console.log(this.state)
     return (
       <div>
-        {/* <img src={Face} /> */}
-
+        <img src={Face} />
         <h1 className="topheader">Adrien Fabre</h1>
-
         <SoftwareDeveloper />
-        <Introduction
+
+        <About
+          updateSelectedSection={this.updateSelectedSection}
+          selectedSection={selectedSection}
+        />
+
+        <WorkExperience
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
         <Education
-          updateSelectedSection={this.updateSelectedSection}
-          selectedSection={selectedSection}
-        />
-        <WorkExperience
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />

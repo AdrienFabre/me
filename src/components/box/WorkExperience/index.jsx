@@ -6,10 +6,6 @@ class WorkExperience extends Component {
     this.state = {}
   }
 
-  componentDidMount() {
-    console.log("---Start componentDidMount---")
-  }
-
   render() {
     let { selectedSection } = this.props
 
@@ -21,8 +17,8 @@ class WorkExperience extends Component {
             className={`title ${selectedSection === "WEX05" && "highlight"}`}
             onClick={() => this.props.updateSelectedSection("WEX05")}
           >
-            2019 - FullStack Developer - ReactJS and AWS with Serverless in
-            NodeJS - London, UK
+            2019 - 2020 - FullStack Developer - ReactJS and AWS with Serverless
+            in NodeJS - London, UK
           </div>
           <div className={`text ${selectedSection === "WEX05" && "show"}`}>
             <ul>
@@ -86,6 +82,66 @@ class WorkExperience extends Component {
                 hikes.
               </p>
             </ul>
+          </div>
+        </div>
+        <div className="card">
+          <div
+            className={`title ${selectedSection === "EDU04" && "highlight"}`}
+            onClick={() => this.props.updateSelectedSection("EDU04")}
+          >
+            2019 - Makers Software Engineering Bootcamp.
+          </div>
+          <div className={`text ${selectedSection === "EDU04" && "show"}`}>
+            <p>
+              <a
+                href="https://makers.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Makers
+              </a>{" "}
+              16-weeks intensive development Bootcamp focused on :
+            </p>
+            <ul>
+              <li>
+                I can make anything
+                <ul>
+                  <li>I can TDD anything</li>
+                  <li>I can program fluently</li>
+                  <li>I can debug anything</li>
+                  <li>I can model anything</li>
+                  <li>I can refactor anything</li>
+                  <li>I have a methodical approach to solving problems</li>
+                </ul>
+              </li>
+              <li>
+                I help my teams succeed
+                <ul>
+                  <li>I use an Agile product development process</li>
+                  <li>I write code that is easy to change</li>
+                  <li>I can justify the way I work in a business context</li>
+                  <li>I can grow collaboratively</li>
+                </ul>
+              </li>
+              <li>
+                I am equipped for long term growth
+                <ul>
+                  <li>I manage my own well-being</li>
+                  <li>I can learn anything by myself</li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Further info on my work towards those goals on my{" "}
+              <a
+                href="https://github.com/AdrienFabre/makers_coding_bootcamp_portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Makers portfolio
+              </a>
+              , on the Feedback section or on my GitHub CV.
+            </p>
           </div>
         </div>
         <div className="card">
