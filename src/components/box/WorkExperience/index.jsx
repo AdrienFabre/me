@@ -20,8 +20,41 @@ class WorkExperience extends Component {
             2019 - 2020 - FullStack Developer - ReactJS and AWS with Serverless
             in NodeJS - London, UK
           </div>
+
           <div className={`text ${selectedSection === "WEX05" && "show"}`}>
             <ul>
+              <li>
+                Created, refactored, tested and extended AWS microservices with
+                Serverless and NodeJs.
+              </li>
+              <li>
+                Used CloudFormation, API Gateway, Lambda, DynamoDB and S3,
+                CloudWatch, IAM, Cognito.
+              </li>
+              <li>
+                Created entire features from Frontend to Backend, using ReactJs
+                and multiple API.
+              </li>
+              <li>
+                Facilitated Scrum Ceremonies within weekly sprints and
+                contributed to design sessions.
+              </li>
+
+              <li>
+                Full Stack
+                <ul>
+                  <li>
+                    Designed and created entirely an internal tool to facilitate
+                    reconciliation between bank transactions from Xero API and
+                    transactions from the database, collaborating with
+                    accountant and the reconciliation team.
+                  </li>
+                  <li>
+                    Created an internal tool to test all our API and databases
+                    and find errors easily.
+                  </li>
+                </ul>
+              </li>
               <li>
                 Back End
                 <ul>
@@ -52,24 +85,6 @@ class WorkExperience extends Component {
                   </li>
                 </ul>
               </li>
-              <li>
-                Full Stack
-                <ul>
-                  <li>
-                    Designed and created entirely an internal tool to facilitate
-                    reconciliation between bank transactions from Xero API and
-                    transactions from the database, collaborating with
-                    accountant and the reconciliation team.
-                  </li>
-                  <li>
-                    Created an internal tool to test all our API and databases
-                    and find errors easily.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Facilitated Scrum Ceremonies within weekly sprints, using Wrike.
-              </li>
               <p>
                 <a
                   href="https://www.betterspace.uk/"
@@ -81,6 +96,40 @@ class WorkExperience extends Component {
                 – An A-Z of things that are good for your mind. From apps to
                 hikes.
               </p>
+
+              <p>
+                Recommendation from{" "}
+                <a
+                  href="https://www.linkedin.com/in/jamesl1001/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  James Alexander Lee - Software Developer at BetterSpace
+                </a>
+                : <br /> "Adrien is approachable, dedicated and enthusiastic and
+                has a wide array of interests and passions which are valuable to
+                any future employer. Adrien and I both joined BetterSpace at the
+                same time and have worked together for the past 8 months. During
+                his time with BetterSpace, Adrien quickly picked up new skills
+                with React and AWS and put them to good use in various projects,
+                mostly involving internal tools.
+                <br /> These projects involved image compression, API automated
+                testing, translating data between Airtable and Dynamo and
+                building a brand new tool for the purpose of reconciling
+                transactional data between our own database and Xero - not an
+                easy feat! Especially during the latter project, in addition to
+                the technical improvements, Adrien gained experience in
+                wireframing, UI and UX design, collating complex requirements
+                from various stakeholders and managing and taking ownership of
+                the project.
+                <br />
+                Adrien is very enthusiastic to learn new things and improve his
+                existing knowledge. He is extremely passionate about "tech for
+                good" and always brings new ideas to the table. Adrien's time at
+                BetterSpace has been invaluable for improving the team's
+                workflow and I wish him all the best for his future!"
+              </p>
+              <p></p>
             </ul>
           </div>
         </div>
@@ -89,7 +138,7 @@ class WorkExperience extends Component {
             className={`title ${selectedSection === "EDU04" && "highlight"}`}
             onClick={() => this.props.updateSelectedSection("EDU04")}
           >
-            2019 - Makers Software Engineering Bootcamp.
+            2019 - Makers Software Engineering Bootcamp - London, UK
           </div>
           <div className={`text ${selectedSection === "EDU04" && "show"}`}>
             <p>

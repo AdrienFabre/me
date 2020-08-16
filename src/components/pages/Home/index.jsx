@@ -7,6 +7,7 @@ import EventExperience from "../../box/EventExperience/index"
 import Recommendation from "../../box/Recommendation/index"
 import Feedback from "../../box/Feedback/index"
 import Face from "../../../picture/Adrien-750x500.jpg"
+import ScrollableAnchor from "react-scrollable-anchor"
 
 class Home extends Component {
   constructor(props) {
@@ -27,9 +28,9 @@ class Home extends Component {
     console.log(this.state)
     return (
       <div>
-        <img src={Face} />
+        <img src={Face} alt="" />
         <h1 className="topheader">Adrien Fabre</h1>
-        <SoftwareDeveloper />
+        <SoftwareDeveloper updateSelectedSection={this.updateSelectedSection} />
 
         <About
           updateSelectedSection={this.updateSelectedSection}
@@ -48,14 +49,20 @@ class Home extends Component {
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
-        <Recommendation
-          updateSelectedSection={this.updateSelectedSection}
-          selectedSection={selectedSection}
-        />
-        <Feedback
-          updateSelectedSection={this.updateSelectedSection}
-          selectedSection={selectedSection}
-        />
+        <ScrollableAnchor id={"recommendation"}>
+          <Recommendation
+            updateSelectedSection={this.updateSelectedSection}
+            selectedSection={selectedSection}
+          />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={"feedback"}>
+          <Feedback
+            updateSelectedSection={this.updateSelectedSection}
+            selectedSection={selectedSection}
+          />
+        </ScrollableAnchor>
+
         <div className="footer">{`Thank you for coming by.`}</div>
       </div>
     )
@@ -63,15 +70,3 @@ class Home extends Component {
 }
 
 export default Home
-
-// const traverse = (obj) => {
-//   if (((obj !== null) !== obj) !== "" && typeof obj == "object") {
-//     Object.entries(obj).forEach(([key, value]) => {
-//       ;<div key={key + 1}>{value} </div>
-//       // key is either an array index or object key
-//       traverse(value)
-//     })
-//   } else {
-//     // obj is a number or string
-//   }
-// }

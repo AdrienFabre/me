@@ -33,10 +33,11 @@ class About extends Component {
               agile team player.
             </p>
             <p>
-              Having graduated from Makers Software Engineering Bootcamp and
-              evolved in a tech startup team, I am looking for a role where I
-              can contribute to a culture of innovation, continuous progress and
-              diversity, from where I can make the world a better place.
+              Graduated from Makers software engineering bootcamp, worked
+              full-stack at the growing startup BetterSpace, I am looking for a
+              role where I can contribute to a culture of innovation, continuous
+              progress and diversity, to create high quality software and social
+              impact.
             </p>
           </div>
         </div>

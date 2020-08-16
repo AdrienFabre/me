@@ -44,14 +44,8 @@ class Education extends Component {
                 .
               </li>
               <li>
-                <a
-                  href="https://mathatituyogaashram.com/200-hours-yoga-ttc-22-days-syllabus/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  200h – 22 days Yoga Teacher Training Course Syllabus
-                </a>{" "}
-                – 50% Hatha – 50% Ashtang.
+                200h – 22 days Yoga Teacher Training Course Syllabus – 50% Hatha
+                – 50% Ashtang.
               </li>
               <li>
                 Words of the teacher: ” I love your dedication and self
