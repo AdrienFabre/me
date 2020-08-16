@@ -14,14 +14,14 @@ class WorkExperience extends Component {
         <h3 className="header">Work Experience</h3>
         <div className="card">
           <div
-            className={`title ${selectedSection === "WEX05" && "highlight"}`}
-            onClick={() => this.props.updateSelectedSection("WEX05")}
+            className={`title ${selectedSection === "WEX06" && "highlight"}`}
+            onClick={() => this.props.updateSelectedSection("WEX06")}
           >
             2019 - 2020 - FullStack Developer - ReactJS and AWS with Serverless
             in NodeJS - London, UK
           </div>
 
-          <div className={`text ${selectedSection === "WEX05" && "show"}`}>
+          <div className={`text ${selectedSection === "WEX06" && "show"}`}>
             <ul>
               <li>
                 Created, refactored, tested and extended AWS microservices with
@@ -135,12 +135,12 @@ class WorkExperience extends Component {
         </div>
         <div className="card">
           <div
-            className={`title ${selectedSection === "EDU04" && "highlight"}`}
-            onClick={() => this.props.updateSelectedSection("EDU04")}
+            className={`title ${selectedSection === "WEX05" && "highlight"}`}
+            onClick={() => this.props.updateSelectedSection("WEX05")}
           >
             2019 - Makers Software Engineering Bootcamp - London, UK
           </div>
-          <div className={`text ${selectedSection === "EDU04" && "show"}`}>
+          <div className={`text ${selectedSection === "WEX05" && "show"}`}>
             <p>
               <a
                 href="https://makers.tech/"

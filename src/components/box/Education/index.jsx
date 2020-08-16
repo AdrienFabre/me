@@ -18,12 +18,12 @@ class Education extends Component {
         <h3 className="header">Education</h3>
         <div className="card">
           <div
-            className={`title ${selectedSection === "EDU05" && "highlight"}`}
-            onClick={() => this.props.updateSelectedSection("EDU05")}
+            className={`title ${selectedSection === "EDU04" && "highlight"}`}
+            onClick={() => this.props.updateSelectedSection("EDU04")}
           >
             2019 - 200h Yoga Teacher Training Course Mathatitu Yoga Ashram.
           </div>
-          <div className={`text ${selectedSection === "EDU05" && "show"}`}>
+          <div className={`text ${selectedSection === "EDU04" && "show"}`}>
             <ul>
               <li>
                 <a
@@ -137,7 +137,7 @@ class Education extends Component {
                   rel="noopener noreferrer"
                 >
                   Plekhanov
-                </a>
+                </a>{" "}
                 University in Moscow and at{" "}
                 <a
                   href="https://www.bimtech.ac.in/"

@@ -2,6 +2,18 @@ button {
   padding: 10px;
   margin: 15px;
   border-radius: 0.2rem;
+  cursor: pointer;
+  border: solid 0.05rem #3f5e6d;
+}
+
+button:hover {
+  transform: scale(1.04);
+  border: solid 0.05rem #3f5e6d;
+}
+
+button:active {
+  transform: scale(1.08);
+  border: solid 0.05rem #3f5e6d;
 }
 
 .topheader {

@@ -28,7 +28,7 @@ class SoftwareDeveloper extends Component {
             GitHub CV
           </a>
           <br />
-          <button onClick={() => this.props.updateSelectedSection("WEX05")}>
+          <button onClick={() => this.props.updateSelectedSection("WEX06")}>
             Full Stack Experience
           </button>
         </p>
