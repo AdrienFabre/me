@@ -13,7 +13,7 @@ class SoftwareDeveloper extends Component {
         <h3 className="centered">AWS - Serverless - NodeJS - React JS</h3>
         <p className="$text centered">
           <a
-            href="https://drive.google.com/file/d/1xJVfeiGLdYs6r6FE3X65TcDWORSQi1H6/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qVGhWulh-FSsyqqo7GC0tB09-6t4ZdAN/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
