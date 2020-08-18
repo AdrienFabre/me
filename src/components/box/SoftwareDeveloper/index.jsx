@@ -9,7 +9,8 @@ class SoftwareDeveloper extends Component {
   render() {
     return (
       <div>
-        <h2 className="header">Software Engineer</h2>
+        <h2 className="centered">Software Engineer</h2>
+        <h3 className="centered">Tech for good</h3>
         <h3 className="centered">AWS - Serverless - NodeJS - React JS</h3>
         <p className="$text centered">
           <a
@@ -27,10 +28,17 @@ class SoftwareDeveloper extends Component {
           >
             GitHub CV
           </a>
-          <br />
-          <button onClick={() => this.props.updateSelectedSection("WEX06")}>
+          <> - </>
+          <a
+            href="https://www.linkedin.com/in/adrienfabre/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
+          {/* <button onClick={() => this.props.updateSelectedSection("WEX06")}>
             Full Stack Experience
-          </button>
+          </button> */}
         </p>
       </div>
     )

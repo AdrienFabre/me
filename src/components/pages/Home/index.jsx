@@ -7,27 +7,100 @@ import EventExperience from "../../box/EventExperience/index"
 import Recommendation from "../../box/Recommendation/index"
 import Feedback from "../../box/Feedback/index"
 import Face from "../../../picture/Adrien-750x500.jpg"
-import ScrollableAnchor from "react-scrollable-anchor"
+import { goToAnchor, configureAnchors } from "react-scrollable-anchor"
+
+// Offset all anchors by -60 to account for a fixed header
+// and scroll more quickly than the default 400ms
+configureAnchors({ offset: -80, scrollDuration: 500 })
+
+const ALLSECTIONS = [
+  "INT01",
+  "INT00",
+  "WEX06",
+  "WEX05",
+  "WEX04",
+  "WEX03",
+  "WEX02",
+  "WEX01",
+  "WEX00",
+  "EDU04",
+  "EDU03",
+  "EDU02",
+  "EDU01",
+  "EDU00",
+  "EEX03",
+  "EEX02",
+  "EEX01",
+  "EEX00",
+  "REC03",
+  "REC02",
+  "REC01",
+  "REC00",
+  "FEE02",
+  "FEE01",
+  "FEE00",
+]
 
 class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
       selectedSection: "INT01",
+      height: "auto",
     }
+  }
+
+  componentDidMount = () => {
+    window.addEventListener("keydown", this.handleKeyDown)
+  }
+
+  componentWillUnmount = () => {
+    window.removeEventListener("keydown", this.handleKeyDown)
+  }
+
+  handleKeyDown = (event) => {
+    const { selectedSection } = this.state
+    let newSelectedSection = selectedSection
+
+    if (event.which === 75) {
+      if (ALLSECTIONS.indexOf(selectedSection) === 0) {
+        newSelectedSection = ALLSECTIONS[ALLSECTIONS.length - 1]
+      } else {
+        newSelectedSection =
+          ALLSECTIONS[ALLSECTIONS.indexOf(selectedSection) - 1]
+      }
+    } else if (event.which === 74) {
+      if (ALLSECTIONS.indexOf(selectedSection) === ALLSECTIONS.length - 1) {
+        newSelectedSection = ALLSECTIONS[0]
+      } else {
+        newSelectedSection =
+          ALLSECTIONS[ALLSECTIONS.indexOf(selectedSection) + 1]
+      }
+    }
+    this.updateSelectedSection(newSelectedSection)
+  }
+
+  animate = () => {
+    this.setState((state) => ({ height: state.height === 233 ? 38 : 233 }))
   }
 
   updateSelectedSection = (section) => {
     let { selectedSection } = this.state
-    if (section === selectedSection) this.setState({ selectedSection: "" })
-    else this.setState({ selectedSection: section })
+    if (section === selectedSection) {
+      this.setState({ selectedSection: "" })
+    } else {
+      setTimeout(() => {
+        goToAnchor(section, true)
+      }, 400)
+
+      this.setState({ selectedSection: section })
+    }
   }
 
   render() {
     let { selectedSection } = this.state
-    console.log(this.state)
     return (
-      <div>
+      <div id="homepage">
         <img src={Face} alt="" />
         <h1 className="topheader">Adrien Fabre</h1>
         <SoftwareDeveloper updateSelectedSection={this.updateSelectedSection} />
@@ -49,19 +122,15 @@ class Home extends Component {
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
-        <ScrollableAnchor id={"recommendation"}>
-          <Recommendation
-            updateSelectedSection={this.updateSelectedSection}
-            selectedSection={selectedSection}
-          />
-        </ScrollableAnchor>
+        <Recommendation
+          updateSelectedSection={this.updateSelectedSection}
+          selectedSection={selectedSection}
+        />
 
-        <ScrollableAnchor id={"feedback"}>
-          <Feedback
-            updateSelectedSection={this.updateSelectedSection}
-            selectedSection={selectedSection}
-          />
-        </ScrollableAnchor>
+        <Feedback
+          updateSelectedSection={this.updateSelectedSection}
+          selectedSection={selectedSection}
+        />
 
         <div className="footer">{`Thank you for coming by.`}</div>
       </div>

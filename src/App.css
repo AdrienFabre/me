@@ -16,6 +16,10 @@ button:active {
   border: solid 0.05rem #3f5e6d;
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
 .topheader {
   margin-top: 20px;
   margin-bottom: 5px;
@@ -24,12 +28,13 @@ button:active {
 
 .header {
   padding: 10px 0px 5px 0px;
-  margin: 5px 0px;
+  margin: 35px 0px 25px 0px;
   text-align: center;
 }
 
 .card {
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .title {
