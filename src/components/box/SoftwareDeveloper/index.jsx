@@ -18,7 +18,7 @@ class SoftwareDeveloper extends Component {
         <h3 className="centered">AWS - Serverless - NodeJS - React JS</h3>
         <p className="$text centered">
           <a
-            href="https://drive.google.com/file/d/1qVGhWulh-FSsyqqo7GC0tB09-6t4ZdAN/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zj7iXX4xN_fjwIkLrwGhMjR26iTy8c1V/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,23 +39,6 @@ class SoftwareDeveloper extends Component {
             rel="noopener noreferrer"
           >
             Linkedin
-          </a>
-        </p>
-        <p className="$text centered">
-          <a
-            href="https://medium.com/@AdrienFabre/journey-to-coding-why-a094a4e06541"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Why Software Engineering
-          </a>
-          <> - </>
-          <a
-            href="https://blog.makersacademy.com/journey-to-coding-makers-d0e3fc97059f"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Why Makers Bootcamp
           </a>
         </p>
 

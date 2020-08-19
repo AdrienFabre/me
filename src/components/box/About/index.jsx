@@ -14,6 +14,7 @@ class About extends Component {
     return (
       <div>
         <h3 className="header">About</h3>
+
         <div className="card">
           <ScrollableAnchor id={"INT01"}>
             <div
@@ -48,6 +49,25 @@ class About extends Component {
                   for a role where I can contribute to a culture of innovation,
                   continuous progress and diversity, to create high quality
                   software and social impact.
+                </p>
+                <p>
+                  Read more about{" "}
+                  <a
+                    href="https://medium.com/@AdrienFabre/journey-to-coding-why-a094a4e06541"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Why Software Engineering
+                  </a>
+                  <> and </>
+                  <a
+                    href="https://blog.makersacademy.com/journey-to-coding-makers-d0e3fc97059f"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Why Makers Bootcamp
+                  </a>
+                  .
                 </p>
               </div>
             ) : undefined}

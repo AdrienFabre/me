@@ -30,28 +30,28 @@ class Education extends Component {
             {selectedSection === "EDU04" ? (
               <div className={`text show`}>
                 {" "}
+                <p>
+                  <a
+                    href="https://mathatituyogaashram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Mathatitu Yoga Ashram
+                  </a>{" "}
+                  is{" "}
+                  <a
+                    href="https://www.yogaalliance.org/SchoolPublicProfile?sid=7174&lid=8675"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Yoga Alliance RYS approved
+                  </a>{" "}
+                  in Varkala, Kerala, India.
+                </p>
                 <ul>
                   <li>
-                    <a
-                      href="https://mathatituyogaashram.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Mathatitu Yoga Ashram
-                    </a>{" "}
-                    in Varkala, Kerala, India.{" "}
-                    <a
-                      href="https://www.yogaalliance.org/SchoolPublicProfile?sid=7174&lid=8675"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Yoga Alliance RYS approved
-                    </a>
-                    .
-                  </li>
-                  <li>
                     200h – 22 days Yoga Teacher Training Course Syllabus – 50%
-                    Hatha – 50% Ashtang.
+                    Hatha – 50% Ashtanga.
                   </li>
                   <li>
                     Words of the teacher: ” I love your dedication and self
@@ -86,10 +86,8 @@ class Education extends Component {
                     rel="noopener noreferrer"
                   >
                     Enrol Yourself Learning Marathon
-                  </a>
-                </p>
-                <p>
-                  A peer-led learning accelerator, focused on answering the
+                  </a>{" "}
+                  is a peer-led learning accelerator, I focused on answering the
                   question: “How to cultivate social impact leadership?”.
                 </p>
                 <p>
@@ -99,11 +97,9 @@ class Education extends Component {
                     rel="noopener noreferrer"
                   >
                     u.lab: Leading From the Emerging Future
-                  </a>
-                </p>
-                <p>
-                  An introduction to leading profound social, environmental and
-                  personal transformation using experiential learning.
+                  </a>{" "}
+                  is an introduction to leading profound social, environmental
+                  and personal transformation using experiential learning.
                   Co-initiated over the past two decades by action researchers
                   at MIT and the Presencing Institute, the u.lab for systems
                   leadership enables leaders to address the deeper sources of

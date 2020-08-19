@@ -30,6 +30,17 @@ class WorkExperience extends Component {
           >
             {selectedSection === "WEX06" ? (
               <div className={`text show`}>
+                <p>
+                  <a
+                    href="https://www.betterspace.uk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Better Space
+                  </a>
+                  – An A-Z of things that are good for your mind. From apps to
+                  hikes.
+                </p>
                 <ul>
                   <li>
                     Created, refactored, tested and extended AWS microservices
@@ -47,26 +58,15 @@ class WorkExperience extends Component {
                     Facilitated Scrum Ceremonies within weekly sprints and
                     contributed to design sessions.
                   </li>
-                  <p>
-                    <a
-                      href="https://www.betterspace.uk/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Better Space
-                    </a>
-                    – An A-Z of things that are good for your mind. From apps to
-                    hikes.
-                  </p>
-                  <p>
-                    <a
-                      href="#REC03"
-                      onClick={() => this.props.updateSelectedSection("REC03")}
-                    >
-                      See BetterSpace Software developer recommendation
-                    </a>
-                  </p>
                 </ul>
+                <p>
+                  <a
+                    href="#REC03"
+                    onClick={() => this.props.updateSelectedSection("REC03")}
+                  >
+                    BetterSpace Software Developer recommendation
+                  </a>
+                </p>
               </div>
             ) : undefined}
           </VelocityTransitionGroup>
@@ -96,7 +96,8 @@ class WorkExperience extends Component {
                   >
                     Makers
                   </a>{" "}
-                  16-weeks intensive development Bootcamp focused on :
+                  is a 16-weeks intensive Software Engineering Bootcamp focused
+                  on :
                 </p>
                 <ul>
                   <li>
@@ -175,16 +176,16 @@ class WorkExperience extends Component {
             {selectedSection === "WEX04" ? (
               <div className={`text show`}>
                 {" "}
+                <p>
+                  I take part is my attempt to create a social innovation lab to
+                  cultivate social impact leadership.
+                </p>
                 <ul>
                   <li>
                     Research, develop and experiment workshop models to drive
                     intuition, intention and actions.
                   </li>
                 </ul>
-                <p>
-                  I take part – Creating a social innovation lab to cultivate
-                  social impact leadership.
-                </p>
               </div>
             ) : undefined}
           </VelocityTransitionGroup>
@@ -207,6 +208,18 @@ class WorkExperience extends Component {
             {selectedSection === "WEX03" ? (
               <div className={`text show`}>
                 {" "}
+                <p>
+                  <a
+                    href="https://www.makesense.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    MakeSense
+                  </a>{" "}
+                  is an international community that rallies individuals in 128
+                  cities across the world to help social entrepreneurs to solve
+                  their challenges.
+                </p>
                 <ul>
                   <li>
                     Organised, designed and facilitated 15+ design thinking
@@ -225,18 +238,6 @@ class WorkExperience extends Component {
                     sustainability eco-systems in London.
                   </li>
                 </ul>
-                <p>
-                  <a
-                    href="https://www.makesense.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    MakeSense
-                  </a>{" "}
-                  is an international community that rallies individuals in 128
-                  cities across the world to help social entrepreneurs to solve
-                  their challenges.
-                </p>
               </div>
             ) : undefined}
           </VelocityTransitionGroup>
@@ -300,6 +301,16 @@ class WorkExperience extends Component {
             {selectedSection === "WEX01" ? (
               <div className={`text show`}>
                 {" "}
+                <p>
+                  <a
+                    href="http://www.schneider-electric.co.uk/en/about-us/company-profile.jsp?"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Schneider Electric
+                  </a>{" "}
+                  is the Global Specialist in Energy Management and Automation.
+                </p>
                 <p>Project Buyer in R&D center – Grenoble, France</p>
                 <ul>
                   <li>
@@ -325,16 +336,6 @@ class WorkExperience extends Component {
                     company’s goals.
                   </li>
                 </ul>
-                <p>
-                  <a
-                    href="http://www.schneider-electric.co.uk/en/about-us/company-profile.jsp?"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Schneider Electric
-                  </a>{" "}
-                  is the Global Specialist in Energy Management and Automation.
-                </p>
               </div>
             ) : undefined}
           </VelocityTransitionGroup>
