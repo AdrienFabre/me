@@ -65,6 +65,11 @@ class Home extends Component {
 
   componentDidMount = () => {
     window.addEventListener("keydown", this.handleKeyDown)
+    // console.log(ALLSECTIONS.includes(window.location.href.slice(-5)))
+    if (ALLSECTIONS.includes(window.location.href.slice(-5))) {
+      let param = window.location.href.slice(-5)
+      this.updateSelectedSection(param)
+    }
   }
 
   componentWillUnmount = () => {
@@ -106,7 +111,6 @@ class Home extends Component {
       setTimeout(() => {
         goToAnchor(section, true)
       }, 400)
-
       this.setState({ selectedSection: section })
     }
   }
