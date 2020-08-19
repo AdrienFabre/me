@@ -40,10 +40,12 @@ class Recommendation extends Component {
                   >
                     James Alexander Lee
                   </a>
-                  : "Adrien is approachable, dedicated and enthusiastic and has
-                  a wide array of interests and passions which are valuable to
-                  any future employer. Adrien and I both joined BetterSpace at
-                  the same time and have worked together for the past 8 months.
+                </p>
+                <p>
+                  "Adrien is approachable, dedicated and enthusiastic and has a
+                  wide array of interests and passions which are valuable to any
+                  future employer. Adrien and I both joined BetterSpace at the
+                  same time and have worked together for the past 8 months.
                   During his time with BetterSpace, Adrien quickly picked up new
                   skills with React and AWS and put them to good use in various
                   projects, mostly involving internal tools.
@@ -100,10 +102,12 @@ class Recommendation extends Component {
                   >
                     Rohan Mehta
                   </a>
-                  : “MakeSense is an open source volunteer-driven network
-                  creating events to support social entrepreneurs. Ever since
-                  Adrien first attended one of our events he was extremely
-                  enthusiastic and connected with our values.
+                </p>
+                <p>
+                  “MakeSense is an open source volunteer-driven network creating
+                  events to support social entrepreneurs. Ever since Adrien
+                  first attended one of our events he was extremely enthusiastic
+                  and connected with our values.
                 </p>
                 <p>
                   Very soon after attending his first event he was eager to jump
@@ -164,11 +168,13 @@ class Recommendation extends Component {
                   >
                     Mursal Hedayat
                   </a>
-                  : “It was a delightful working with Adrien. He produced a
-                  highly engaging and well attended MakeSense workshop for
-                  Chatterbox in very little time. He was very attentive to our
-                  needs and delivered outputs that far exceeded our
-                  expectations. I would highly recommend him.”
+                </p>
+                <p>
+                  “It was a delightful working with Adrien. He produced a highly
+                  engaging and well attended MakeSense workshop for Chatterbox
+                  in very little time. He was very attentive to our needs and
+                  delivered outputs that far exceeded our expectations. I would
+                  highly recommend him.”
                 </p>
               </div>
             ) : undefined}
@@ -201,7 +207,9 @@ class Recommendation extends Component {
                   >
                     Michael Graham
                   </a>
-                  : “Adrien is a great asset to any team in a business
+                </p>
+                <p>
+                  “Adrien is a great asset to any team in a business
                   environment. He has an incredible work ethic blended with a
                   great student mentality. During his time at MJB he proved
                   himself to be a fast learner and demonstrated a willingness to

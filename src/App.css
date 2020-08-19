@@ -33,12 +33,11 @@ h1 {
 }
 
 .card {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 3px;
 }
 
 .title {
-  margin: 5px 5px 5px auto;
+  margin: 10px;
   font-weight: bolder;
   border: none;
   transition: 0.3s transform;

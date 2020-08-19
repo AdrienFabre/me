@@ -87,7 +87,9 @@ class Education extends Component {
                   >
                     Enrol Yourself Learning Marathon
                   </a>
-                  , a peer-led learning accelerator, focused on answering the
+                </p>
+                <p>
+                  A peer-led learning accelerator, focused on answering the
                   question: “How to cultivate social impact leadership?”.
                 </p>
                 <p>
@@ -98,8 +100,10 @@ class Education extends Component {
                   >
                     u.lab: Leading From the Emerging Future
                   </a>
-                  , an introduction to leading profound social, environmental
-                  and personal transformation using experiential learning.
+                </p>
+                <p>
+                  An introduction to leading profound social, environmental and
+                  personal transformation using experiential learning.
                   Co-initiated over the past two decades by action researchers
                   at MIT and the Presencing Institute, the u.lab for systems
                   leadership enables leaders to address the deeper sources of

@@ -14,6 +14,10 @@ import { goToAnchor, configureAnchors } from "react-scrollable-anchor"
 configureAnchors({ offset: -80, scrollDuration: 500 })
 
 const ALLSECTIONS = [
+  "PRO03",
+  "PRO02",
+  "PRO01",
+  "PRO00",
   "INT01",
   "INT00",
   "WEX06",
@@ -36,6 +40,15 @@ const ALLSECTIONS = [
   "REC02",
   "REC01",
   "REC00",
+  "FEE11",
+  "FEE10",
+  "FEE09",
+  "FEE08",
+  "FEE07",
+  "FEE06",
+  "FEE05",
+  "FEE04",
+  "FEE03",
   "FEE02",
   "FEE01",
   "FEE00",
@@ -45,7 +58,7 @@ class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      selectedSection: "INT01",
+      selectedSection: "",
       height: "auto",
     }
   }
@@ -69,6 +82,7 @@ class Home extends Component {
         newSelectedSection =
           ALLSECTIONS[ALLSECTIONS.indexOf(selectedSection) - 1]
       }
+      this.updateSelectedSection(newSelectedSection)
     } else if (event.which === 74) {
       if (ALLSECTIONS.indexOf(selectedSection) === ALLSECTIONS.length - 1) {
         newSelectedSection = ALLSECTIONS[0]
@@ -76,8 +90,8 @@ class Home extends Component {
         newSelectedSection =
           ALLSECTIONS[ALLSECTIONS.indexOf(selectedSection) + 1]
       }
+      this.updateSelectedSection(newSelectedSection)
     }
-    this.updateSelectedSection(newSelectedSection)
   }
 
   animate = () => {
@@ -103,7 +117,10 @@ class Home extends Component {
       <div id="homepage">
         <img src={Face} alt="" />
         <h1 className="topheader">Adrien Fabre</h1>
-        <SoftwareDeveloper updateSelectedSection={this.updateSelectedSection} />
+        <SoftwareDeveloper
+          updateSelectedSection={this.updateSelectedSection}
+          selectedSection={selectedSection}
+        />
 
         <About
           updateSelectedSection={this.updateSelectedSection}

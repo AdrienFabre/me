@@ -47,54 +47,6 @@ class WorkExperience extends Component {
                     Facilitated Scrum Ceremonies within weekly sprints and
                     contributed to design sessions.
                   </li>
-
-                  <li>
-                    Full Stack
-                    <ul>
-                      <li>
-                        Designed and created entirely an internal tool to
-                        facilitate reconciliation between bank transactions from
-                        Xero API and transactions from the database,
-                        collaborating with accountant and the reconciliation
-                        team.
-                      </li>
-                      <li>
-                        Created an internal tool to test all our API and
-                        databases and find errors easily.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Back End
-                    <ul>
-                      <li>
-                        Created, refactored, tested and extended AWS
-                        microservices.
-                      </li>
-                      <li>
-                        Created services using CloudFormation templates for API
-                        Gateway, Lambda and DynamoDB, also regularly using S3,
-                        CloudWatch, IAM, Cognito and Amplify.
-                      </li>
-                      <li>
-                        Created a mircoservice to resize and save to S3 all
-                        pictures from external links.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Front End
-                    <ul>
-                      <li>
-                        Improved an internal tool using ReactJs to fulfil orders
-                        using our API endpoints.
-                      </li>
-                      <li>
-                        Improved an internal tool to update resources DynamoDB
-                        from Airtable API.
-                      </li>
-                    </ul>
-                  </li>
                   <p>
                     <a
                       href="https://www.betterspace.uk/"
