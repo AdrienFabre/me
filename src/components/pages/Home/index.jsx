@@ -65,9 +65,11 @@ class Home extends Component {
 
   componentDidMount = () => {
     window.addEventListener("keydown", this.handleKeyDown)
-    // console.log(window.location.hash.substring(1))
-    if (ALLSECTIONS.includes(window.location.hash.substring(1))) {
-      let param = window.location.hash.substring(1)
+
+    let url = window.location.href
+    let param = url.substring(url.lastIndexOf("#") + 1)
+
+    if (ALLSECTIONS.includes(param)) {
       this.updateSelectedSection(param)
     }
   }
