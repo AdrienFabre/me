@@ -20,8 +20,8 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE11" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE11")}
             >
-              Makers Software Engineering Bootcamp Head of Education - April
-              30th 2019
+              Sam Morgan - Makers Software Engineering Bootcamp Head of
+              Education - April 30th 2019
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -37,7 +37,7 @@ class Feedback extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Sam Morgan – Maker’s Head of Education
+                    Sam Morgan
                   </a>{" "}
                 </p>
                 <p>
@@ -164,7 +164,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE10" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE10")}
             >
-              Makers Student - Clare Pinder
+              Clare Pinder - Software Engineer at ThoughtWorks
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -182,6 +182,7 @@ class Feedback extends Component {
                   >
                     Clare Pinder
                   </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “Adrien set out a clear plan for program – to follow the
@@ -203,7 +204,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE09" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE09")}
             >
-              Makers Student - Ellie Turnock
+              Ellie Turnock - Software Engineer at Jigsaw XYZ
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -220,7 +221,8 @@ class Feedback extends Component {
                     target="_blank"
                   >
                     Ellie Turnock
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “Your process is very strong, you know what to do next, doing
@@ -242,7 +244,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE08" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE08")}
             >
-              Makers Student - Krzysztof Balejko
+              Krzysztof Balejko - Software Engineer at Alfa Financial Software
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -259,7 +261,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     Krzysztof Balejko
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “Adrien starts each of his projects with careful planing and I
@@ -280,7 +283,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE07" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE07")}
             >
-              Makers Student - Dan Groze
+              Dan Groze - Software Engineer at Sainsbury's
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -297,7 +300,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     Dan Groze
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “I like that you always start tackling a problem with lots of
@@ -319,7 +323,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE06" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE06")}
             >
-              Makers Student - Sherif Shendidy
+              Sherif Shendidy - Software Engineer at at M&G Prudential
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -336,7 +340,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     Sherif Shendidy
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “It was a real pleasure working with you on our final project
@@ -359,7 +364,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE05" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE05")}
             >
-              Makers Student - Elliot Jennings
+              Elliot Jennings - Software Engineer at Deloitte UK
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -376,7 +381,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     Elliot Jennings
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “Before working on Jungl-Book with Adrien I thought I had
@@ -400,7 +406,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE04" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE04")}
             >
-              Makers Student - Vaith Schmitz
+              Vaith Schmitz - Software Engieer at RoboRecruiter Inc.
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -412,12 +418,13 @@ class Feedback extends Component {
                 {" "}
                 <p>
                   <a
-                    href="https://www.linkedin.com/in/wpdunk/"
+                    href="https://www.linkedin.com/in/vaithschmitz/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Vaith Schmitz
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “Adrien has been great to work with on JunglBook. He’s super
@@ -440,7 +447,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE03" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE03")}
             >
-              Makers Student - William Dunk
+              William Dunk - Software Engineer at iProov
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -457,7 +464,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     William Dunk
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “Adrien was a pleasure to work with throughout the Makers BnB
@@ -479,7 +487,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE02" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE02")}
             >
-              Makers Student - Matthew Whitaker
+              Matthew Whitaker - Software Engineer at Factorial HR
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -496,7 +504,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     Matthew Whitaker
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “You were generally very effective when writing tests and
@@ -537,7 +546,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE01" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE01")}
             >
-              Makers Student - Diptis Halder
+              Diptis Halder - Software Engineer at Alfa Financial Software
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -554,7 +563,8 @@ class Feedback extends Component {
                     rel="noopener noreferrer"
                   >
                     Diptis Halder
-                  </a>
+                  </a>{" "}
+                  as a Makers student:
                 </p>{" "}
                 <p>
                   “It was clear that he can code fluently as soon after we

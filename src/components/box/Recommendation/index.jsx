@@ -21,7 +21,8 @@ class Recommendation extends Component {
               onClick={() => this.props.updateSelectedSection("REC03")}
             >
               {" "}
-              Software Developer at BetterSpace with a PhD in Digital Arts
+              James Alexander Lee - Software Developer at BetterSpace with a PhD
+              in Digital Arts
             </div>
           </ScrollableAnchor>
 
@@ -38,7 +39,8 @@ class Recommendation extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    James Alexander Lee
+                    James Alexander Lee - Software Developer at BetterSpace with
+                    a PhD in Digital Arts
                   </a>
                 </p>
                 <p>
@@ -82,7 +84,7 @@ class Recommendation extends Component {
               onClick={() => this.props.updateSelectedSection("REC02")}
             >
               {" "}
-              Rohan Mehta, Community Builder| Workshop Facilitator| Creative
+              Rohan Mehta - Community Builder, Workshop Facilitator, Creative
               Problem Solver
             </div>
           </ScrollableAnchor>
@@ -148,7 +150,7 @@ class Recommendation extends Component {
               className={`title ${selectedSection === "REC01" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("REC01")}
             >
-              Mursal Hedayat, CEO at Chatterbox, FounderForbes 30 Under 30
+              Mursal Hedayat - CEO at Chatterbox, FounderForbes 30 Under 30
               Social Entrepreneur
             </div>
           </ScrollableAnchor>
@@ -187,8 +189,8 @@ class Recommendation extends Component {
               className={`title ${selectedSection === "REC00" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("REC00")}
             >
-              Michael Graham, Sales Expert, MJB, Director of Entrepreneurship at
-              Genisys (Charity)
+              Michael Graham - Sales Expert, MJB, Director of Entrepreneurship
+              at Genisys (Charity)
             </div>
           </ScrollableAnchor>
 
