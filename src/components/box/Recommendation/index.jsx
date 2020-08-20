@@ -39,8 +39,7 @@ class Recommendation extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    James Alexander Lee - Software Developer at BetterSpace with
-                    a PhD in Digital Arts
+                    James Alexander Lee
                   </a>
                 </p>
                 <p>
