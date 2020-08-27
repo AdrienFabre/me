@@ -61,13 +61,27 @@ class SoftwareDeveloper extends Component {
               <div className={`text show`}>
                 <ul>
                   <li>
-                    Designed and created entirely an internal tool to facilitate
-                    reconciliation between bank transactions from Xero API and
-                    transactions from the database, collaborating with
-                    accountant and the reconciliation team.
+                    <a
+                      href="https://github.com/AdrienFabre/Reconciliation"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Reconciliation
+                    </a>
+                    : Designed and created entirely an internal tool to
+                    facilitate reconciliation between bank transactions from
+                    Xero API and transactions from the database, collaborating
+                    with accountant and the reconciliation team.
                   </li>
                   <li>
-                    Created an internal tool to test all our API and databases
+                    <a
+                      href="https://github.com/AdrienFabre/testApi"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      TestApi
+                    </a>
+                    : Created an internal tool to test all our API and databases
                     and find errors easily.
                   </li>
                 </ul>
@@ -92,16 +106,15 @@ class SoftwareDeveloper extends Component {
               <div className={`text show`}>
                 <ul>
                   <li>
-                    Created, refactored, tested and extended AWS microservices.
-                  </li>
-                  <li>
-                    Created services using CloudFormation templates for API
-                    Gateway, Lambda and DynamoDB, also regularly using S3,
-                    CloudWatch, IAM, Cognito and Amplify.
-                  </li>
-                  <li>
-                    Created a mircoservice to resize and save to S3 all pictures
-                    from external links.
+                    <a
+                      href="https://github.com/AdrienFabre/resizeImages"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Resizer
+                    </a>
+                    : Created a mircoservice to resize and save to S3 all
+                    pictures from external links.
                   </li>
                 </ul>
               </div>
@@ -125,12 +138,19 @@ class SoftwareDeveloper extends Component {
               <div className={`text show`}>
                 <ul>
                   <li>
-                    Improved an internal tool using ReactJs to fulfil orders
-                    using our API endpoints.
+                    <a
+                      href="https://github.com/AdrienFabre/AirtableToDynamo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Airtable
+                    </a>
+                    : Improved an internal tool to update resources DynamoDB
+                    from Airtable API.
                   </li>
                   <li>
-                    Improved an internal tool to update resources DynamoDB from
-                    Airtable API.
+                    Improved the UI for the order fulfilment team using API
+                    endpoints, increased speed and ease.
                   </li>
                 </ul>
               </div>

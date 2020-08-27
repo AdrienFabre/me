@@ -107,6 +107,9 @@ class Home extends Component {
 
   updateSelectedSection = (section) => {
     let { selectedSection } = this.state
+    console.log("section", section)
+    console.log("selectedSection", selectedSection)
+
     if (section === selectedSection) {
       this.setState({ selectedSection: "" })
     } else {
@@ -115,6 +118,8 @@ class Home extends Component {
       }, 400)
       this.setState({ selectedSection: section })
     }
+    console.log("section", section)
+    console.log("selectedSection", selectedSection)
   }
 
   render() {
