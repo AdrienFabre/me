@@ -90,7 +90,7 @@ class EventExperience extends Component {
                       rel="noopener noreferrer"
                     >
                       Olio
-                    </a>
+                    </a>{" "}
                     and{" "}
                     <a
                       href="http://www.soleshare.net/"
