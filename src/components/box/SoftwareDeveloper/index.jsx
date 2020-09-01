@@ -15,7 +15,7 @@ class SoftwareDeveloper extends Component {
       <div>
         <h2 className="centered"> Software Engineer</h2>
         <h3 className="centered">Tech for good</h3>
-        <h3 className="centered">AWS - Serverless - NodeJS - React JS</h3>
+        <h3 className="centered">AWS - Serverless - NodeJS - ReactJS</h3>
         <p className="$text centered">
           <a
             href="https://drive.google.com/file/d/1mBnm9s7lGX96F0HrafaowHC4vIDBZ0eq/view?usp=sharing"

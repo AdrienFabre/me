@@ -48,7 +48,7 @@ class Feedback extends Component {
                 </p>
                 <ul>
                   <li>
-                    <p> can TDD anything:</p>
+                    <p>I can TDD anything:</p>
                     <p>
                       "I liked that your first test was essentially an
                       expression of a working program. However, I might consider
@@ -406,7 +406,7 @@ class Feedback extends Component {
               className={`title ${selectedSection === "FEE04" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("FEE04")}
             >
-              Vaith Schmitz - Software Engieer at RoboRecruiter Inc.
+              Vaith Schmitz - Software Engineer at RoboRecruiter Inc.
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -627,13 +627,7 @@ class Feedback extends Component {
                   intelligent, and were impressed as you were the only person to
                   do C#. They said the technical interview went well, and they
                   liked how you were able to make use of online resources for
-                  C#. You could talk about what wasn’t covered in unit tests
-                  (they said you acknowledged you could do more). Some of the
-                  feedback said that you were very motivated and came across
-                  well in one of the one-to-ones, but they overall they didn’t
-                  think you conveyed enough enthusiasm and thought that you
-                  might be too reserved in the team to hit the ground running
-                  with making contributions and speaking up".
+                  C#.
                 </p>
               </div>
             ) : undefined}

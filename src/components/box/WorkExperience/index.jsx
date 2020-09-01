@@ -142,7 +142,7 @@ class WorkExperience extends Component {
                     rel="noopener noreferrer"
                   >
                     Makers portfolio
-                  </a>
+                  </a>{" "}
                   and my{" "}
                   <a
                     href="https://github.com/AdrienFabre/CV"

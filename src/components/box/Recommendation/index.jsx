@@ -15,10 +15,10 @@ class Recommendation extends Component {
       <div>
         <h3 className="header">Recommendation</h3>
         <div className="card">
-          <ScrollableAnchor id={"REC03"}>
+          <ScrollableAnchor id={"REC04"}>
             <div
-              className={`title ${selectedSection === "REC03" && "highlight"}`}
-              onClick={() => this.props.updateSelectedSection("REC03")}
+              className={`title ${selectedSection === "REC04" && "highlight"}`}
+              onClick={() => this.props.updateSelectedSection("REC04")}
             >
               {" "}
               James Alexander Lee - Software Developer at BetterSpace with a PhD
@@ -30,7 +30,7 @@ class Recommendation extends Component {
             enter={{ animation: "slideDown" }}
             leave={{ animation: "slideUp" }}
           >
-            {selectedSection === "REC03" ? (
+            {selectedSection === "REC04" ? (
               <div className={`text show`}>
                 {" "}
                 <p>
@@ -77,10 +77,10 @@ class Recommendation extends Component {
         </div>
 
         <div className="card">
-          <ScrollableAnchor id={"REC02"}>
+          <ScrollableAnchor id={"REC03"}>
             <div
-              className={`title ${selectedSection === "REC02" && "highlight"}`}
-              onClick={() => this.props.updateSelectedSection("REC02")}
+              className={`title ${selectedSection === "REC03" && "highlight"}`}
+              onClick={() => this.props.updateSelectedSection("REC03")}
             >
               {" "}
               Rohan Mehta - Community Builder, Workshop Facilitator, Creative
@@ -92,7 +92,7 @@ class Recommendation extends Component {
             enter={{ animation: "slideDown" }}
             leave={{ animation: "slideUp" }}
           >
-            {selectedSection === "REC02" ? (
+            {selectedSection === "REC03" ? (
               <div className={`text show`}>
                 {" "}
                 <p>
@@ -144,6 +144,73 @@ class Recommendation extends Component {
         </div>
 
         <div className="card">
+          <ScrollableAnchor id={"REC02"}>
+            <div
+              className={`title ${selectedSection === "REC02" && "highlight"}`}
+              onClick={() => this.props.updateSelectedSection("REC02")}
+            >
+              {" "}
+              Gianpietro Pucciariello - Facilitator, AppyMaps Co-Founder, Board
+              Member at makesense
+            </div>
+          </ScrollableAnchor>
+
+          <VelocityTransitionGroup
+            enter={{ animation: "slideDown" }}
+            leave={{ animation: "slideUp" }}
+          >
+            {selectedSection === "REC02" ? (
+              <div className={`text show`}>
+                {" "}
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/hellogp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Gianpietro Pucciariello
+                  </a>
+                </p>
+                <p>
+                  “I am more than pleased to provide the highest recommendation
+                  to Adrien, whom I have known as a coworker for the period
+                  between January 2016 and December 2017 at Makesense London.
+                </p>
+                <p>
+                  Since his first day and during all the period we worked
+                  together, Adrien showed a really strong work ethic and
+                  commitment to the organisation's values. If Adrien commits to
+                  something he will do his absolute best to get the results and
+                  get it done properly. He learns quickly about the working
+                  environment, for every work we did, he highly contributed. He
+                  always follows the instructions carefully, if he is in
+                  difficulty he would always reflect and evaluate the tasks to
+                  understand how he could achieve it alone before asking for
+                  help. Adrien is always eager to learn, a proper problem solver
+                  and incredibly adaptive. He has the gift to ask questions that
+                  help the team to reflect and learn together.
+                </p>
+                <p>
+                  In each design thinking workshop we facilitated, he shined for
+                  teamwork, ethics and energy. He has a very open, enthusiastic
+                  and dynamic facilitation style, he is also very attentive to
+                  the process and the people. Among all the good memories, I
+                  remember how Adrien successfully led 10 volunteers in the
+                  Makesense London event of September 2016 where we designed a
+                  day-long Festival about Food Security/Food Sovereignty called
+                  "Food Glorious Food". We engaged 100+ participants, 15 guests
+                  in sustainable/green-themed activities, holistic seminars and
+                  creative thinking workshops with startups.
+                </p>
+                <p>
+                  I am looking forward to working again with him in the future.”
+                </p>
+              </div>
+            ) : undefined}
+          </VelocityTransitionGroup>
+        </div>
+
+        <div className="card">
           <ScrollableAnchor id={"REC01"}>
             <div
               className={`title ${selectedSection === "REC01" && "highlight"}`}
@@ -171,7 +238,7 @@ class Recommendation extends Component {
                   </a>
                 </p>
                 <p>
-                  “It was a delightful working with Adrien. He produced a highly
+                  “It was delightful working with Adrien. He produced a highly
                   engaging and well attended MakeSense workshop for Chatterbox
                   in very little time. He was very attentive to our needs and
                   delivered outputs that far exceeded our expectations. I would
