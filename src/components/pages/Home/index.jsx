@@ -36,6 +36,7 @@ const ALLSECTIONS = [
   "EEX02",
   "EEX01",
   "EEX00",
+  "REC05",
   "REC04",
   "REC03",
   "REC02",

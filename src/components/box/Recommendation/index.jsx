@@ -15,6 +15,45 @@ class Recommendation extends Component {
       <div>
         <h3 className="header">Recommendation</h3>
         <div className="card">
+          <ScrollableAnchor id={"REC05"}>
+            <div
+              className={`title ${selectedSection === "REC05" && "highlight"}`}
+              onClick={() => this.props.updateSelectedSection("REC05")}
+            >
+              {" "}
+              Alfredo Belfiori - Co-Founder and CTO at BetterSpace
+            </div>
+          </ScrollableAnchor>
+
+          <VelocityTransitionGroup
+            enter={{ animation: "slideDown" }}
+            leave={{ animation: "slideUp" }}
+          >
+            {selectedSection === "REC05" ? (
+              <div className={`text show`}>
+                {" "}
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/alfredobelfiori/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Alfredo Belfiori
+                  </a>
+                </p>
+                <p>
+                  "Adrien is a beautiful person to work with. He is active and
+                  enthusiastic, eager to learn and work on his tasks and always
+                  happy to help other people on any other kind of job. We've
+                  always assigned him very difficult jobs and he takes complete
+                  ownership over them. He doesn't get satisfied until his
+                  project works well."
+                </p>
+              </div>
+            ) : undefined}
+          </VelocityTransitionGroup>
+        </div>
+        <div className="card">
           <ScrollableAnchor id={"REC04"}>
             <div
               className={`title ${selectedSection === "REC04" && "highlight"}`}
