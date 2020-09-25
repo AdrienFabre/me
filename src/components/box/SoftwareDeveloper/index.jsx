@@ -15,7 +15,9 @@ class SoftwareDeveloper extends Component {
       <div>
         <h2 className="centered"> Software Engineer</h2>
         <h3 className="centered">Tech for good</h3>
-        <h3 className="centered">AWS - Serverless - NodeJS - ReactJS</h3>
+        <h3 className="centered">
+          AWS - Serverless - NodeJS - ReactJS - Rails
+        </h3>
         <p className="$text centered">
           <a
             href="https://drive.google.com/file/d/1mBnm9s7lGX96F0HrafaowHC4vIDBZ0eq/view?usp=sharing"
@@ -50,7 +52,7 @@ class SoftwareDeveloper extends Component {
               className={`title ${selectedSection === "PRO03" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("PRO03")}
             >
-              Full Stack (AWS - Serverless - NodeJs - React - Xero API)
+              Full Stack (AWS - Serverless - NodeJs - React - Xero API - Rails)
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
@@ -83,6 +85,17 @@ class SoftwareDeveloper extends Component {
                     </a>
                     : Created an internal tool to test all our API and databases
                     and find errors easily.
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/AdrienFabre/articles-rails-react"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Sharing App
+                    </a>
+                    : Created a minimalist Rails and React app where global user
+                    can like articles.
                   </li>
                 </ul>
               </div>
@@ -149,8 +162,19 @@ class SoftwareDeveloper extends Component {
                     from Airtable API.
                   </li>
                   <li>
-                    Improved the UI for the order fulfilment team using API
-                    endpoints, increased speed and ease.
+                    Fulfilment process: Adapted UI and process to the users
+                    using API endpoints, increased speed and ease.
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://github.com/AdrienFabre/me"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Adrienfabre.dev
+                    </a>
+                    : Created a simple static React website hosted on GitHub.
                   </li>
                 </ul>
               </div>

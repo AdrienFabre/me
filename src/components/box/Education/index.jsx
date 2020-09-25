@@ -57,6 +57,11 @@ class Education extends Component {
                     Words of the teacher: ” I love your dedication and self
                     discipline”.
                   </li>
+                  <li>
+                    Words of a student: "Just a note to say thank you again for
+                    last night! I felt super relaxed (& tired 😂) after the yoga
+                    class. Would definitely attend your classes :)".
+                  </li>
                 </ul>
               </div>
             ) : undefined}
