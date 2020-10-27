@@ -1,3 +1,51 @@
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  #scrollinstructions {
+    display: none;
+  } /* hide it on small screens */
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  #scrollinstructions {
+    display: block;
+  } /* show it elsewhere */
+}
+
+.scrollbutton2 {
+  background-color: transparent;
+  float: right;
+  position: fixed;
+  left: 3%;
+  top: 20px;
+  z-index: 4;
+  border: solid 1px grey;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 5px;
+  width: 43px;
+  height: 31px;
+  text-align: center;
+}
+.scrollbutton1 {
+  background-color: transparent;
+  float: right;
+  position: fixed;
+  left: 3%;
+  top: 70px;
+  z-index: 4;
+  border: solid 1px grey;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 5px;
+  width: 43px;
+  height: 31px;
+  text-align: center;
+}
+
+.arrow {
+  display: inline;
+  vertical-align: bottom;
+}
+
 button {
   padding: 10px;
   margin: 15px;

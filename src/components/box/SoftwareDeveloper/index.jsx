@@ -20,7 +20,7 @@ class SoftwareDeveloper extends Component {
         </h3>
         <p className="$text centered">
           <a
-            href="https://drive.google.com/file/d/1mBnm9s7lGX96F0HrafaowHC4vIDBZ0eq/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LO36To75IbnSEPwAcrZp1JEwUBowYVUw/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

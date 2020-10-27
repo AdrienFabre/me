@@ -7,6 +7,9 @@ import EventExperience from "../../box/EventExperience/index"
 import Recommendation from "../../box/Recommendation/index"
 import Feedback from "../../box/Feedback/index"
 import Face from "../../../picture/Adrien-750x500.jpg"
+import ArrowUp from "../../../picture/arrow-up.png"
+import ArrowDown from "../../../picture/arrow-down.png"
+
 import { goToAnchor, configureAnchors } from "react-scrollable-anchor"
 
 // Offset all anchors by -60 to account for a fixed header
@@ -84,15 +87,15 @@ class Home extends Component {
     const { selectedSection } = this.state
     let newSelectedSection = selectedSection
 
-    if (event.which === 75) {
+    if (event.which === 75) { // letter K
       if (ALLSECTIONS.indexOf(selectedSection) === 0) {
         newSelectedSection = ALLSECTIONS[ALLSECTIONS.length - 1]
       } else {
         newSelectedSection =
-          ALLSECTIONS[ALLSECTIONS.indexOf(selectedSection) - 1]
+          ALLSECTIONS[ALLSECTIONS.indexOf(selectedSection) - 1] || ALLSECTIONS[0]
       }
       this.updateSelectedSection(newSelectedSection)
-    } else if (event.which === 74) {
+    } else if (event.which === 74) { // letter J
       if (ALLSECTIONS.indexOf(selectedSection) === ALLSECTIONS.length - 1) {
         newSelectedSection = ALLSECTIONS[0]
       } else {
@@ -124,22 +127,37 @@ class Home extends Component {
     console.log("selectedSection", selectedSection)
   }
 
+  renderscrollinstructions = (likes) => {
+    return (
+      <div id='scrollinstructions'>
+      <div className='scrollbutton2'>
+        K
+        <img className='arrow' src={ArrowUp} alt="ArrowDown" />
+      </div>
+      <div className='scrollbutton1'>
+        J
+        <img className='arrow' src={ArrowDown} alt="ArrowDown" />
+      </div>
+    </div>
+    )
+  }
+
+
   render() {
     let { selectedSection } = this.state
     return (
       <div id="homepage">
-        <img src={Face} alt="" />
+        <img src={Face} alt="Face" />
+       {this.renderscrollinstructions()}``
         <h1 className="topheader">Adrien Fabre</h1>
         <SoftwareDeveloper
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
-
         <About
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
-
         <WorkExperience
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
@@ -156,12 +174,10 @@ class Home extends Component {
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
-
         <Feedback
           updateSelectedSection={this.updateSelectedSection}
           selectedSection={selectedSection}
         />
-
         <div className="footer">{`Thank you for coming by.`}</div>
       </div>
     )

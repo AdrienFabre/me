@@ -59,8 +59,8 @@ class Education extends Component {
                   </li>
                   <li>
                     Words of a student: "Just a note to say thank you again for
-                    last night! I felt super relaxed (& tired 😂) after the yoga
-                    class. Would definitely attend your classes :)".
+                    last night! I felt super relaxed and tired after the yoga
+                    class! Would definitely attend your classes".
                   </li>
                 </ul>
               </div>
