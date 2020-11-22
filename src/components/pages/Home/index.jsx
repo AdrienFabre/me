@@ -147,7 +147,7 @@ class Home extends Component {
     let { selectedSection } = this.state
     return (
       <div id="homepage">
-        <img className='halfwidth' src={AdrienFace} alt="AdrienFace" />
+        <img className='halfwidthsmall' src={AdrienFace} alt="AdrienFace" />
        {this.renderscrollinstructions()}
         <h1 className="topheader">Adrien Fabre</h1>
         <SoftwareDeveloper
