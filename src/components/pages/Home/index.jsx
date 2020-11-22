@@ -6,7 +6,7 @@ import WorkExperience from "../../box/WorkExperience/index"
 import EventExperience from "../../box/EventExperience/index"
 import Recommendation from "../../box/Recommendation/index"
 import Feedback from "../../box/Feedback/index"
-import Face from "../../../picture/Adrien-750x500.jpg"
+import AdrienFace from "../../../picture/Adrien-750x500.jpg"
 import ArrowUp from "../../../picture/arrow-up.png"
 import ArrowDown from "../../../picture/arrow-down.png"
 
@@ -147,8 +147,8 @@ class Home extends Component {
     let { selectedSection } = this.state
     return (
       <div id="homepage">
-        <img src={Face} alt="Face" />
-       {this.renderscrollinstructions()}``
+        <img className='halfwidth' src={AdrienFace} alt="AdrienFace" />
+       {this.renderscrollinstructions()}
         <h1 className="topheader">Adrien Fabre</h1>
         <SoftwareDeveloper
           updateSelectedSection={this.updateSelectedSection}

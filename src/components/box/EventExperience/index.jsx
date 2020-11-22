@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import ScrollableAnchor from "react-scrollable-anchor"
 import { VelocityTransitionGroup } from "velocity-react"
-
+import AdrienFacilitation from "../../../picture/adrien-facilitation.jpeg"
 class EventExperience extends Component {
   constructor(props) {
     super(props)
@@ -14,6 +14,8 @@ class EventExperience extends Component {
     return (
       <div>
         <h3 className="header">Event Experience</h3>
+        <img className='halfwidth' src={AdrienFacilitation} alt="AdrienFace" />
+
         <div className="card">
           <ScrollableAnchor id={"EEX03"}>
             <div

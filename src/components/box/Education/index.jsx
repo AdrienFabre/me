@@ -20,7 +20,7 @@ class Education extends Component {
               className={`title ${selectedSection === "EDU04" && "highlight"}`}
               onClick={() => this.props.updateSelectedSection("EDU04")}
             >
-              2019 - 200h Yoga Teacher Training Course Mathatitu Yoga Ashram.
+              2019 - 200h - Yoga Teacher Training Course Mathatitu Yoga Ashram.
             </div>
           </ScrollableAnchor>
           <VelocityTransitionGroup
